@@ -14,6 +14,8 @@
 
 // smooth scroll
 // smooth scroll
+
+
 $(document).ready(function(){
     $(".navbar .nav-link").on('click', function(event) {
 
