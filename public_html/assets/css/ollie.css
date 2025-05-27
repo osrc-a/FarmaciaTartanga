@@ -2163,7 +2163,7 @@ pre code {
 
 .form-control {
   display: block;
-  width: 100%;
+  width: 60%;
   height: calc(1.5em + 0.75rem + 2px);
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
@@ -6833,7 +6833,7 @@ a.close.disabled {
 
 .carousel-inner {
   position: relative;
-  width: 100%;
+  width: 60%;
   overflow: hidden;
 }
 
@@ -6847,7 +6847,7 @@ a.close.disabled {
   position: relative;
   display: none;
   float: left;
-  width: 100%;
+  width: 60%;
   margin-right: -100%;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
@@ -10784,7 +10784,7 @@ a.text-primary:hover, a.text-primary:focus {
 }
 
 .text-secondary {
-  color: #6c757d !important;
+  color: #004080 !important;
 }
 
 a.text-secondary:hover, a.text-secondary:focus {
@@ -11075,7 +11075,7 @@ p {
 
 .xs-font {
   font-size: 13px;
-  opacity: .5;
+  opacity:10;
 }
 
 .title {
