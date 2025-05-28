@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
-   <head>
+<head>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Start your development with Ollie landing page.">
+    <meta name="description" content="Creamos tu solución adaptada a tus necesiadades">
     <meta name="author" content="Devcrud">
-    <title>Ollie Landing page | Free Bootstrap 4.3.x landing page</title>
+    <title>Farmacia Tartanga</title>
 
     <!-- font icons -->
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
@@ -47,7 +47,7 @@
 <header id="home" class="header">
         <div class="overlay"></div>
     
-        <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">  
+        <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
             <div class="container">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -100,46 +100,66 @@
                 </div>
             </div>
         </div>
-    </header>    
+    </header>
 
-
-    
-    <section class="section" id="cronograma">
-        <div class="container mb-3">
-            <h6 class="xs-font mb-0">Planificación estratégica del proyecto</h6>
-            <h3 class="section-title mb-5">Tareas y Cronograma</h3>
-    
-            <!-- Imagen con scroll horizontal -->
-            <div class="img-wrapper" style="overflow-x: auto; max-width: 100%; margin-bottom: 30px;">
-                <img src="assets/imgs/diagramadeGant.png" alt="Diagrama de Gantt - Cronograma del Proyecto" style="min-width: 800px; max-width: none;">
-            </div>
-    
-            <!-- Texto y descripción debajo -->
-            <div class="txt-wrapper">
-                <h4 class="blog-title">Cronograma de actividades</h4>
-                <p>El cronograma presenta las tareas claves del proyecto estructuradas a lo largo del tiempo. Se visualiza con un diagrama de Gantt que facilita el seguimiento del avance, la asignación de responsabilidades y la identificación de dependencias entre actividades.</p>
-    
-                <ul>
-                    <li><strong>Fase 1:</strong> Diagnóstico inicial – Noviembre</li>
-                    <li><strong>Fase 2:</strong> Planificación estratégica – Diciembre</li>
-                    <li><strong>Fase 3:</strong> Ejecución de acciones – Enero</li>
-                    <li><strong>Fase 4:</strong> Evaluación y ajustes – Febrero</li>
-                </ul>
-    
-                <a href="assets/docs/Diagrama de Gantt.pdf" class="badge badge-info" target="_blank">Ver Diagrama de Gantt (PDF)</a>
-    
-                <h6 class="blog-footer mt-3">
-                    <a href="javascript:void(0)"><i class="ti-calendar"></i> Duración: 6 meses </a> |
-                    <a href="javascript:void(0)"><i class="ti-check-box"></i> Tareas: 12 </a> |
-                    <a href="javascript:void(0)"><i class="ti-user"></i> Responsable: Coordinador de proyecto</a>
-                </h6>
+<section class="section" id="cronograma">
+    <div class="container mb-5">
+        <!-- Encabezado -->
+        <div class="row mb-4">
+            <div class="col-lg-12 text-left">
+                <h6 class="text-muted">Planificación estratégica del proyecto</h6>
+                <h3 class="section-title">Tareas y Cronograma</h3>
             </div>
         </div>
-    </section>
-    
 
-    
+        <!-- Diagrama de Gantt con scroll horizontal -->
+        <div class="row mb-4">
+            <div class="col-12">
+                <div class="img-wrapper border rounded shadow-sm p-2" style="overflow-x: auto; max-width: 100%;">
+                    <img src="assets/imgs/diagramadeGant.png" alt="Diagrama de Gantt - Cronograma del Proyecto" style="min-width: 800px; max-width: none;">
+                </div>
+            </div>
+        </div>
 
+        <!-- Texto descriptivo -->
+        <div class="row">
+            <div class="col-lg-8">
+                <h4 class="blog-title mb-3">Cronograma de actividades</h4>
+                <p>
+                    El cronograma del proyecto ha sido diseñado como una herramienta de planificación integral, orientada a garantizar la ejecución ordenada, eficiente y oportuna de cada una de las fases previstas. A través de un <strong>diagrama de Gantt</strong>, se visualizan claramente las tareas, sus duraciones, las fechas de inicio y finalización, así como las dependencias entre ellas.
+                </p>
+                <p>
+                    Este enfoque permite un control riguroso del avance, facilita la asignación de responsabilidades y optimiza la coordinación entre los distintos actores involucrados. Cada fase cuenta con hitos claramente definidos y plazos realistas, basados en un análisis previo de recursos, riesgos y capacidades operativas.
+                </p>
+                <p>
+                    La planificación contempla espacios para revisión intermedia, ajustes estratégicos y actividades de evaluación, lo cual fortalece la flexibilidad del cronograma frente a imprevistos y mejora la toma de decisiones durante la implementación.
+                </p>
+
+                <!-- Fases -->
+                <ul class="mb-4">
+                    <li><strong>Fase 1:</strong> Diagnóstico inicial – <em>Noviembre</em></li>
+                    <li><strong>Fase 2:</strong> Planificación estratégica – <em>Diciembre</em></li>
+                    <li><strong>Fase 3:</strong> Ejecución de acciones – <em>Enero</em></li>
+                    <li><strong>Fase 4:</strong> Evaluación y ajustes – <em>Febrero</em></li>
+                </ul>
+
+                <!-- Enlace al PDF -->
+                <a href="assets/docs/Diagrama de Gantt.pdf" class="badge badge-info" target="_blank">📄 Ver Diagrama de Gantt (PDF)</a>
+            </div>
+
+            <!-- Datos del cronograma -->
+            <div class="col-lg-4 mt-4 mt-lg-0">
+                <div class="p-4 shadow rounded bg-light">
+                    <ul class="list-unstyled">
+                        <li class="mb-3"><i class="ti-calendar text-primary mr-2"></i><strong>Duración:</strong> 6 meses</li>
+                        <li class="mb-3"><i class="ti-check-box text-primary mr-2"></i><strong>Tareas:</strong> 12 actividades clave</li>
+                        <li class="mb-0"><i class="ti-user text-primary mr-2"></i><strong>Responsable:</strong> Coordinador del proyecto</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
     <footer class="footer mt-5 border-top">
                 <div class="row align-items-center justify-content-center">
                     <div class="col-md-6 text-center text-md-left">
